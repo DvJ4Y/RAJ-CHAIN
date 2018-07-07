@@ -46,24 +46,27 @@ BNA file is Business Network Archive
 ## Models
    Access Rules
    Transaction Rules
+
 ## Participants
    Government
    Individual
    Organizations
+
 ## Assets
   Lakshmi
   LakshmiType
+
 ## Transactions
   sendTransaction
 
 When we make a transaction of money transfer by an individual to an organization, it matches the assetTypes of both the entities involved, if they match the transaction goes through, else it fails.
 
 ## Steps to Deploy
-< 1. Open https://composer-playground.mybluemix.net/
+1. Open https://composer-playground.mybluemix.net/
 
 2. Import Network Business Card, given in the repository with name networkadmin.card
 
 3. Deploy a New Business Network, with bharat-chain.bna file
 
 4. Start Playing!!
-/>
+
